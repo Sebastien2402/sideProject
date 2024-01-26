@@ -1,21 +1,64 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-html, body {
+body {
   margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
+  background-image: url("esiea.jpg");
+  background-size: cover;
 }
-
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
-}
-
-main > h1 {
+header {
+  background-color: white;
+  padding: 10px;
   text-align: center;
-  font-size: 3.5em;
+  border-top: 5px solid black;
+  font-family: sans-serif;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+h1 {
+  margin: 0;
+}
+nav {
+  background-color: white;
+  margin-top: 60px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.nav a{
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  font-family: sans-serif;
+}
+.section {
+  text-align: center;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-family: sans-serif;
+}
+.section a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-welcome {
+  text-align: center;
+  background-color: white;
+}
+.esiea-section {
+  position: relative;
+  background-image: url("esiea-section.jpg");
+  height: 300px;
+  width: 100%;
+}
+.first-section{
+  text-align: center;
+  height: 500px;
+  background-color: white;
+  font-family: sans-serif;
 }
