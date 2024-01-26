@@ -1,4 +1,4 @@
-body {
+html,body {
     margin: 0;
     background-image: url("esiea.jpg");
     background-size: cover;
@@ -30,17 +30,14 @@ nav {
     margin: 0 10px;
     font-family: sans-serif;
 }
+.nav a:hover{
+    background-color: gray;
+    color: white;
+}
 .section {
     text-align: center;
 }
 
-.footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 30px;
-    font-family: sans-serif;
-}
 .section a {
     display: flex;
     flex-direction: column;
@@ -58,10 +55,24 @@ nav {
 }
 .first-section{
     text-align: center;
-    height: 500px;
+    height: 350px;
     background-color: white;
+    font-family: sans-serif;
     font-family: sans-serif;
 }
 .cv-section {
     text-align: center;
 }
+.button {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 30px;
+}
+.button:hover {
+    background-color: gray;
+    color: white;
+  }
